@@ -1,6 +1,8 @@
 {% extends "nduggaapp/base.html" %}
 {% load static %}
 {% load thumbnail %}
+
+
 {% block title %}
     {% if category %}{{ category.name }}{% else %}Products{% endif %}
 {% endblock %}
@@ -23,11 +25,17 @@
         <h1>{% if category %}{{ category.name }}{% else %}Products {% endif %}</h1>
         {% for product in products %}
             <div class="item">
-                {% thumbnail product.image "300x300" crop="center" as product%}
-                <a href="{{ product.get_absolute_url }}">
-                    <img src="{% if product %}{{ product.url }} {% else %}{% static "img/no_image-png" %} {% endif %}" width="{{300}}" height="{{300}}"" >
-                </a>
-                {% endthumbnail %}
+                {% if product.image %}
+                    {% thumbnail product.image "300x300" crop="center" as product%}
+                    <a href="{{ product.get_absolute_url }}">
+                        <img src="{{ product.url }}" width="{{300}}" height="{{300}}">
+                    </a>
+                    {% endthumbnail %}
+                {% else %}
+                    <a href="{{ product.get_absolute_url }}">
+                        <img src="{% static "img/no_image.png" %}" width="{{300}}" height="{{300}}">
+                    </a>
+                {% endif %}
                 <a href="{{ product.get_absolute_url }}">{{ product.name }}</a><br>
                 ${{ product.price }}
             </div>
