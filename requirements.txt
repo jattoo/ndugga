@@ -1,0 +1,4 @@
+DJANGO==3.2.4
+django-environ==0.4.5
+pillow==8.2.0
+sorl-thumbnail==12.7.0
