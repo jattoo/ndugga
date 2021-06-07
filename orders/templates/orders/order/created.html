@@ -1,0 +1,13 @@
+{% extends "nduggaapp/base.html" %}
+{% load static %}
+
+{% block title %}
+    Thank You
+{% endblock %}
+
+{% block content %}
+    <h1>Thank you</h1>
+    <p>Your order has been successfully completed. Order number: 
+        <strong>{{ order.id }}</strong>.
+    </p>
+{% endblock %}

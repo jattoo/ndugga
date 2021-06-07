@@ -65,6 +65,6 @@
         <a href="{% url "nduggaapp:product_list" %}" class="button light">
             Continue Shopping
         </a>
-        <a href="#" class="button">Checkout</a>
+        <a href="{% url "orders:order_create" %}" class="button">Checkout</a>
     </p>
 {% endblock %}
