@@ -1,1 +1,1 @@
-A DOCKERIZED DJANGO + DRF PROJECT RUNNING CI/CD PIPELINE THROUGH GITHUB ACTIONS.
+A DOCKERIZED DJANGO PROJECT RUNNING CI/CD PIPELINE THROUGH GITHUB ACTIONS. Messaging will be using  Celery with rabbitmq as broker. Still trying to decide between Docker or Vagrant for containerization.
