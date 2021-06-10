@@ -1,5 +1,6 @@
 import environ, os
 from pathlib import Path
+import braintree
 
 env = environ.Env()
 environ.Env.read_env()
@@ -36,6 +37,7 @@ INSTALLED_APPS = [
     'nduggaapp',
     'cart',
     'orders',
+    'payment',
     'sorl.thumbnail',
 ]
 
@@ -129,9 +131,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+#SENDGRID
 SENDGRID_API_KEY = env('SENDGRID_API_KEY')
 EMAIL_HOST= env('EMAIL_HOST')
 EMAIL_HOST_USER = env('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+#BRAINTREE
+BRAINTREE_MERCHANT_ID=env('BRAINTREE_MERCHANT_ID')
+BRAINTREE_PUBLIC_KEY=env('BRAINTREE_PUBLIC_KEY')
+BRAINTREE_PRIVATE_KEY=env('BRAINTREE_PRIVATE_KEY')
+
+BRAINTREE_CONF = braintree.Configuration(
+    braintree.Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
