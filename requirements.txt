@@ -6,3 +6,4 @@ celery==4.4.2
 erlang==22
 rabbitmq==3.8.6
 flower==0.9.3
+weasyprint==51
