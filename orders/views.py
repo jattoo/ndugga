@@ -8,7 +8,7 @@ import weasyprint
 from .models import OrderItem, Order
 from .forms import OrderCreateForm
 from cart.cart import Cart
-from .tasks import order_created
+#from .tasks import order_created
 
 
 def order_create(request):
@@ -25,7 +25,7 @@ def order_create(request):
             #empty our cart items
             cart.clear()
             # launch asynchronous task
-            order_created.delay(order.id)
+            #order_created.delay(order.id)
             #set order in session
             request.session['order_id'] = order.id
             return redirect(reverse('payment:process'))
