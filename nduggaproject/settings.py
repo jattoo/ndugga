@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'cart',
     'orders',
     'payment',
+    'coupons',
     'sorl.thumbnail',
 ]
 
