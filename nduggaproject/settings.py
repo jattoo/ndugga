@@ -1,5 +1,6 @@
 import environ, os
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 import braintree
 
 env = environ.Env()
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'payment',
     'coupons',
     'sorl.thumbnail',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -111,9 +113,9 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en'
 
 LANGUAGES = (
-    ('en', 'English'),
-    ('fi', 'Finnish'),
-    ('wo', 'wollof'),
+    ('en', _('English')),
+    ('fi', _('Finnish')),
+    ('fr', _('French')),
 )
 
 LOCALE_PATH = (os.path.join(BASE_DIR, 'locale/'))

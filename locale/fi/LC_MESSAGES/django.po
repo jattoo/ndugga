@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-19 20:43+0300\n"
+"PO-Revision-Date: 2021-06-19 18:02+0000\n"
+"Last-Translator: b'  <admin@example.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: cart/forms.py:10
+msgid "Quantity"
+msgstr "määrä"
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "kuponki"
+
+#: nduggaapp/templates/nduggaapp/base.html:7
+msgid "Nduggabi"
+msgstr "Nduggabi"
+
+#: nduggaapp/templates/nduggaapp/base.html:12
+msgid "NDUGGABI"
+msgstr "NDUGGABI"
+
+#: nduggaapp/templates/nduggaapp/base.html:18
+msgid "Your cart"
+msgstr "ostoskorisi"
+
+#: nduggaapp/templates/nduggaapp/base.html:20
+#, python-format
+msgid ""
+"\n"
+"                                %(items)s item, €%(total)s\n"
+"                                "
+msgid_plural ""
+"\n"
+"                                    %(items)s items, €%(total)s\n"
+"                            "
+msgstr[0] ""
+"\n"
+"%(items)s tuote, €%(total)s"
+msgstr[1] ""
+"\n"
+"%(items)s tuote, €%(total)s"
+
+#: nduggaapp/templates/nduggaapp/base.html:28
+msgid "Your cart is empty."
+msgstr "Ostoskorisi on tyhjä."
+
+#: nduggaapp/templates/nduggaapp/product/detail.html:26
+msgid "Add to cart"
+msgstr "Lisää ostoskoriin"
+
+#: nduggaproject/settings.py:115
+msgid "English"
+msgstr "Englati"
+
+#: nduggaproject/settings.py:116
+msgid "Finnish"
+msgstr "Suomi"
+
+#: nduggaproject/settings.py:117
+msgid "French"
+msgstr "Ranska"
