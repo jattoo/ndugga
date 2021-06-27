@@ -18,14 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: nduggaproject/settings.py:116
-msgid "English"
-msgstr ""
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "Kuponki"
 
-#: nduggaproject/settings.py:117
-msgid "Finnish"
-msgstr ""
+#: coupons/models.py:9
+msgid "code"
+msgstr "koodi"
 
-#: nduggaproject/settings.py:118
-msgid "French"
-msgstr ""
+#: coupons/models.py:12
+msgid "discount"
+msgstr "alennus"

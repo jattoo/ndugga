@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-19 20:43+0300\n"
+"POT-Creation-Date: 2021-06-27 15:52+0300\n"
 "PO-Revision-Date: 2021-06-19 18:04+0000\n"
 "Last-Translator: b'  <admin@example.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,15 +43,16 @@ msgstr "postinumero"
 msgid "city"
 msgstr "kaupunki"
 
-#: orders/templates/orders/order/create.html:12
+#: orders/templates/orders/order/create.html:7
+#: orders/templates/orders/order/create.html:11
 msgid "Checkout"
 msgstr ""
 
-#: orders/templates/orders/order/create.html:19
+#: orders/templates/orders/order/create.html:14
 msgid "Your order"
 msgstr "Maksuun"
 
-#: orders/templates/orders/order/create.html:29
+#: orders/templates/orders/order/create.html:24
 #, python-format
 msgid ""
 "\n"
@@ -59,10 +60,63 @@ msgid ""
 "                    "
 msgstr ""
 
-#: orders/templates/orders/order/create.html:36
+#: orders/templates/orders/order/create.html:31
+#: orders/templates/orders/order/pdf.html:37
 msgid "Total"
 msgstr "Yhteensä"
 
-#: orders/templates/orders/order/create.html:41
+#: orders/templates/orders/order/create.html:36
 msgid "Place Order"
 msgstr "Tilaus"
+
+#: orders/templates/orders/order/created.html:6
+msgid "Thank You"
+msgstr "Kiitos"
+
+#: orders/templates/orders/order/created.html:10
+msgid "Thank you"
+msgstr "Kiitos"
+
+#: orders/templates/orders/order/created.html:11
+msgid "Your order has been successfully completed. Order number:"
+msgstr "Tilauksesi on suoritettu onnistuneesti. Tilausnumero:"
+
+#: orders/templates/orders/order/pdf.html:7
+msgid "Invoice no"
+msgstr "Laskun nro"
+
+#: orders/templates/orders/order/pdf.html:10
+msgid "Receipt"
+msgstr "Kuitti"
+
+#: orders/templates/orders/order/pdf.html:10
+msgid "Bill to"
+msgstr "Maksaaja"
+
+#: orders/templates/orders/order/pdf.html:17
+msgid "Items bought"
+msgstr "Ostetut"
+
+#: orders/templates/orders/order/pdf.html:21
+msgid "Product"
+msgstr "Tuote"
+
+#: orders/templates/orders/order/pdf.html:22
+msgid "Price"
+msgstr "Hinta"
+
+#: orders/templates/orders/order/pdf.html:23
+msgid "Quatity"
+msgstr "Määrä"
+
+#: orders/templates/orders/order/pdf.html:24
+msgid "Cost"
+msgstr "Hinta"
+
+#: orders/templates/orders/order/pdf.html:43
+msgid "Paid"
+msgstr "Maksettu"
+
+#: orders/templates/orders/order/pdf.html:43
+msgid "Pending payment"
+msgstr "Maksettava"

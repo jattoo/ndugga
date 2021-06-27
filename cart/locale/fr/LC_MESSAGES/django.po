@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-27 15:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: cart/forms.py:10 cart/templates/cart/detail.html:16
+msgid "Quantity"
+msgstr "Quantité"
+
+#: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html:10
+msgid "Your shopping cart"
+msgstr "Votre Panier"
+
+#: cart/templates/cart/detail.html:14
+msgid "Image"
+msgstr "Image"
+
+#: cart/templates/cart/detail.html:15
+msgid "Product"
+msgstr "Produit"
+
+#: cart/templates/cart/detail.html:17 cart/templates/cart/detail.html:49
+msgid "Remove"
+msgstr "Supprimer"
+
+#: cart/templates/cart/detail.html:18
+msgid "Unit Price"
+msgstr "Prix ​​unitaire"
+
+#: cart/templates/cart/detail.html:19
+msgid "Price"
+msgstr "Prix"
+
+#: cart/templates/cart/detail.html:42
+msgid "Update"
+msgstr "Reviser"
+
+#: cart/templates/cart/detail.html:76
+msgid "Total"
+msgstr "Total"
+
+#: cart/templates/cart/detail.html:86
+msgid "Apply"
+msgstr "Appliquer"
+
+#: cart/templates/cart/detail.html:93
+msgid "Continue Shopping"
+msgstr "Continuer vos achats"

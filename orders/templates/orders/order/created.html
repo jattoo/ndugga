@@ -1,13 +1,14 @@
 {% extends "nduggaapp/base.html" %}
+{% load i18n %}
 {% load static %}
 
 {% block title %}
-    Thank You
+    {% trans "Thank You" %}
 {% endblock %}
 
 {% block content %}
-    <h1>Thank you</h1>
-    <p>Your order has been successfully completed. Order number: 
+    <h1>{% trans "Thank you" %}</h1>
+    <p>{% trans "Your order has been successfully completed. Order number:" %} 
         <strong>{{ order.id }}</strong>.
     </p>
 {% endblock %}

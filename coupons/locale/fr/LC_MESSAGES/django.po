@@ -16,16 +16,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: nduggaproject/settings.py:116
-msgid "English"
-msgstr ""
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "Coupon"
 
-#: nduggaproject/settings.py:117
-msgid "Finnish"
-msgstr ""
+#: coupons/models.py:9
+msgid "code"
+msgstr "code"
 
-#: nduggaproject/settings.py:118
-msgid "French"
-msgstr ""
+#: coupons/models.py:12
+msgid "discount"
+msgstr "remise"

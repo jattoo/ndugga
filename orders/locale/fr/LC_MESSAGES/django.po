@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-19 20:43+0300\n"
+"POT-Creation-Date: 2021-06-27 15:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,15 +42,16 @@ msgstr "numéro de poste"
 msgid "city"
 msgstr "ville"
 
-#: orders/templates/orders/order/create.html:12
+#: orders/templates/orders/order/create.html:7
+#: orders/templates/orders/order/create.html:11
 msgid "Checkout"
 msgstr "Paiement"
 
-#: orders/templates/orders/order/create.html:19
+#: orders/templates/orders/order/create.html:14
 msgid "Your order"
 msgstr "votre commande"
 
-#: orders/templates/orders/order/create.html:29
+#: orders/templates/orders/order/create.html:24
 #, python-format
 msgid ""
 "\n"
@@ -58,10 +59,63 @@ msgid ""
 "                    "
 msgstr ""
 
-#: orders/templates/orders/order/create.html:36
+#: orders/templates/orders/order/create.html:31
+#: orders/templates/orders/order/pdf.html:37
 msgid "Total"
 msgstr "le total"
 
-#: orders/templates/orders/order/create.html:41
+#: orders/templates/orders/order/create.html:36
 msgid "Place Order"
 msgstr "achat"
+
+#: orders/templates/orders/order/created.html:6
+msgid "Thank You"
+msgstr ""
+
+#: orders/templates/orders/order/created.html:10
+msgid "Thank you"
+msgstr "Merci"
+
+#: orders/templates/orders/order/created.html:11
+msgid "Your order has been successfully completed. Order number:"
+msgstr "Votre commande a été complétée avec succès. Numéro de commande:"
+
+#: orders/templates/orders/order/pdf.html:7
+msgid "Invoice no"
+msgstr "Facture non"
+
+#: orders/templates/orders/order/pdf.html:10
+msgid "Receipt"
+msgstr ""
+
+#: orders/templates/orders/order/pdf.html:10
+msgid "Bill to"
+msgstr ""
+
+#: orders/templates/orders/order/pdf.html:17
+msgid "Items bought"
+msgstr ""
+
+#: orders/templates/orders/order/pdf.html:21
+msgid "Product"
+msgstr "Produit"
+
+#: orders/templates/orders/order/pdf.html:22
+msgid "Price"
+msgstr "Prix"
+
+#: orders/templates/orders/order/pdf.html:23
+msgid "Quatity"
+msgstr "Quantité"
+
+#: orders/templates/orders/order/pdf.html:24
+msgid "Cost"
+msgstr "Coût"
+
+#: orders/templates/orders/order/pdf.html:43
+msgid "Paid"
+msgstr "Payé"
+
+#: orders/templates/orders/order/pdf.html:43
+msgid "Pending payment"
+msgstr "En attente de paiement"
