@@ -8,23 +8,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 15:52+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2021-06-30 17:36+0300\n"
+"PO-Revision-Date: 2021-06-30 14:33+0000\n"
+"Last-Translator: b'  <admin@example.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
 
 #: orders/models.py:10
 msgid "first_name"
-msgstr ""
+msgstr "prénom"
 
 #: orders/models.py:11
 msgid "last_name"
-msgstr "prénom"
+msgstr "nom de famille"
 
 #: orders/models.py:12
 msgid "email"
@@ -58,6 +59,8 @@ msgid ""
 "                        \"%(code)s\" (%(discount)s%% off)\n"
 "                    "
 msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% off)"
 
 #: orders/templates/orders/order/create.html:31
 #: orders/templates/orders/order/pdf.html:37
@@ -70,7 +73,7 @@ msgstr "achat"
 
 #: orders/templates/orders/order/created.html:6
 msgid "Thank You"
-msgstr ""
+msgstr "Merci"
 
 #: orders/templates/orders/order/created.html:10
 msgid "Thank you"
@@ -86,15 +89,15 @@ msgstr "Facture non"
 
 #: orders/templates/orders/order/pdf.html:10
 msgid "Receipt"
-msgstr ""
+msgstr "reçu"
 
 #: orders/templates/orders/order/pdf.html:10
 msgid "Bill to"
-msgstr ""
+msgstr "Facturer"
 
 #: orders/templates/orders/order/pdf.html:17
 msgid "Items bought"
-msgstr ""
+msgstr "Articles achetés"
 
 #: orders/templates/orders/order/pdf.html:21
 msgid "Product"

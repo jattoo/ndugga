@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 15:52+0300\n"
+"POT-Creation-Date: 2021-06-30 17:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,11 +42,15 @@ msgstr ""
 msgid "NDUGGABI"
 msgstr ""
 
-#: nduggaapp/templates/nduggaapp/base.html:18
+#: nduggaapp/templates/nduggaapp/base.html:17
+msgid "Language"
+msgstr ""
+
+#: nduggaapp/templates/nduggaapp/base.html:35
 msgid "Your cart"
 msgstr ""
 
-#: nduggaapp/templates/nduggaapp/base.html:20
+#: nduggaapp/templates/nduggaapp/base.html:37
 #, python-format
 msgid ""
 "\n"
@@ -59,7 +63,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: nduggaapp/templates/nduggaapp/base.html:28
+#: nduggaapp/templates/nduggaapp/base.html:45
 msgid "Your cart is empty."
 msgstr ""
 
