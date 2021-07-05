@@ -1,5 +1,6 @@
 {% load i18n %}
 {% load static %}
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,11 +31,13 @@
           </div>
         <div id="subheader">
             <div class="cart">
+              <img src="{% static "img/cart.png" %}" width="{{55}}" height="{{35}}">
                 {% with total_items=cart|length %}
                     {% if total_items > 0 %}
                         {% trans "Your cart" %}:
                         <a href="{% url "cart:cart_detail" %}">
                             {% blocktrans with total=cart.get_total_price count items=total_items %}
+                            
                                 {{ items }} item, €{{ total }}
                                 {% plural %}
                                     {{ items }} items, €{{ total }}

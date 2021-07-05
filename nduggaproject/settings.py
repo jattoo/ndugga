@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'coupons',
     'sorl.thumbnail',
     'rosetta',
+    'localflavor',
 ]
 
 MIDDLEWARE = [

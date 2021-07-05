@@ -8,3 +8,4 @@ rabbitmq==3.8.6
 flower==0.9.3
 weasyprint==51
 django-rosetta==0.9.3
+django-localflavor==3.0.1
