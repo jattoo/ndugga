@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 17:36+0300\n"
+"POT-Creation-Date: 2021-07-06 10:34+0300\n"
 "PO-Revision-Date: 2021-06-30 14:19+0000\n"
 "Last-Translator: b'  <admin@example.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.9.3\n"
 
-#: nduggaproject/settings.py:116
+#: nduggaproject/settings.py:117
 msgid "English"
 msgstr "Englati"
 
-#: nduggaproject/settings.py:117
+#: nduggaproject/settings.py:118
 msgid "Finnish"
 msgstr "Suomi"
 
-#: nduggaproject/settings.py:118
+#: nduggaproject/settings.py:119
 msgid "French"
 msgstr "Ranska"
 

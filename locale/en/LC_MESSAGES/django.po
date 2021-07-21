@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 17:36+0300\n"
+"POT-Creation-Date: 2021-07-06 10:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: nduggaproject/settings.py:116
+#: nduggaproject/settings.py:117
 msgid "English"
 msgstr ""
 
-#: nduggaproject/settings.py:117
+#: nduggaproject/settings.py:118
 msgid "Finnish"
 msgstr ""
 
-#: nduggaproject/settings.py:118
+#: nduggaproject/settings.py:119
 msgid "French"
 msgstr ""

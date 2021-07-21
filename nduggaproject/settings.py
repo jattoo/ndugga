@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'coupons',
     'sorl.thumbnail',
     'rosetta',
+    'parler',
     'localflavor',
 ]
 
@@ -165,3 +166,20 @@ BRAINTREE_CONF = braintree.Configuration(
     BRAINTREE_PUBLIC_KEY,
     BRAINTREE_PRIVATE_KEY
 )
+
+#REDIS SPECIFICS
+REDIS_HOST = env('REDIS_HOST')
+REDIS_PORT = env('REDIS_PORT')
+REDIS_DB = env('REDIS_DB')
+
+PARLER_LANGUAGES = {
+    None:   (
+        {'code': 'en'},
+        {'code': 'fi'},
+        {'code': 'fr'},
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untraslated': False,
+    }
+}

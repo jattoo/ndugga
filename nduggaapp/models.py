@@ -1,15 +1,20 @@
 from django.db import models
 from django.urls import reverse
+from django.utils import translation
 from django.utils.translation import gettext_lazy as _
+from parler.models import TranslatableModel, TranslatedFields
 
-class Category(models.Model):
-    name = models.CharField(_('name'),max_length=200,
-                            db_index=True)
-    slug = models.SlugField(max_length=200,
-                            unique=True)
+class Category(TranslatableModel):
+    translations = TranslatedFields(
+        name = models.CharField(_('name'),max_length=200,
+                                    db_index=True),
+        slug = models.SlugField(max_length=200,
+                                    unique=True)
+    )
+    
 
     class Meta:
-        ordering = ('name',)
+        #ordering = ('name',)
         verbose_name = 'category'
         verbose_name_plural = 'categories'
 
@@ -19,23 +24,26 @@ class Category(models.Model):
     def get_absolute_url(self):
         return reverse('nduggaapp:product_list_by_category', args=[self.slug])
 
-class Product(models.Model):
+class Product(TranslatableModel):
+    translations = TranslatedFields(
+        name = models.CharField(_('name'),max_length=200, db_index=True),
+        slug = models.SlugField(max_length=200, db_index=True),
+        description = models.TextField(_('description'),blank=True)
+    )
     category = models.ForeignKey(Category,
                                  related_name='products',
                                  on_delete=models.CASCADE)
-    name = models.CharField(_('name'),max_length=200, db_index=True)
-    slug = models.SlugField(max_length=200, db_index=True)
     image = models.ImageField(upload_to='products/%Y/%m/%d',
                               blank=True)
-    description = models.TextField(_('description'),blank=True)
     price = models.DecimalField(_('price'),max_digits=10, decimal_places=2)
     available = models.BooleanField(_('available'),default=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
-    class Meta:
-        ordering = ('name',)
-        index_together = (('id', 'slug'),)
+    #class Meta:
+        #ordering = ('name',)
+        #index_together = (('id', 'slug'),)
+
 
     def __str__(self):
         return self.name

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 17:36+0300\n"
+"POT-Creation-Date: 2021-07-06 10:34+0300\n"
 "PO-Revision-Date: 2021-06-30 14:32+0000\n"
 "Last-Translator: b'  <admin@example.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,26 +35,35 @@ msgstr "prix"
 msgid "available"
 msgstr "disponible"
 
-#: nduggaapp/templates/nduggaapp/base.html:7
+#: nduggaapp/templates/nduggaapp/base.html:8
 msgid "Nduggabi"
 msgstr "Nduggabi"
 
-#: nduggaapp/templates/nduggaapp/base.html:12
+#: nduggaapp/templates/nduggaapp/base.html:13
 msgid "NDUGGABI"
 msgstr "NDUGGABI"
 
-#: nduggaapp/templates/nduggaapp/base.html:17
+#: nduggaapp/templates/nduggaapp/base.html:18
 msgid "Language"
 msgstr "Langue"
 
-#: nduggaapp/templates/nduggaapp/base.html:35
+#: nduggaapp/templates/nduggaapp/base.html:37
 msgid "Your cart"
 msgstr "votre panier"
 
-#: nduggaapp/templates/nduggaapp/base.html:37
-#, python-format
+#: nduggaapp/templates/nduggaapp/base.html:39
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "                                %(items)s item, €%(total)s\n"
+#| "                                "
+#| msgid_plural ""
+#| "\n"
+#| "                                    %(items)s items, €%(total)s\n"
+#| "                            "
 msgid ""
 "\n"
+"                            \n"
 "                                %(items)s item, €%(total)s\n"
 "                                "
 msgid_plural ""
@@ -68,7 +77,7 @@ msgstr[1] ""
 "\n"
 "%(items)s items, €%(total)s"
 
-#: nduggaapp/templates/nduggaapp/base.html:45
+#: nduggaapp/templates/nduggaapp/base.html:48
 msgid "Your cart is empty."
 msgstr "votre panier est vide"
 
